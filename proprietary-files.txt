@@ -118,6 +118,14 @@ lib/libQSEEComAPI.so
 lib/lib_asb_tee.so
 lib/lib_get_secure_mode.so
 lib/libals.so
+lib/libcacao_chokoball.so
+lib/libcacao_client.so
+lib/libcacao_common.so
+lib/libcacao_imgproc.so
+lib/libcacao_jpeg.so
+lib/libcacao_pal.so
+lib/libcacao_parammgr.so
+lib/libcacao_service.so
 lib/libcald_client.so
 lib/libcald_hal.so
 lib/libcald_imageutil.so
@@ -147,6 +155,8 @@ lib/libmmjpeg_interface.so
 lib/libpin-cache.so
 lib/libprotobuf-c.so
 lib/libqomx_core.so
+lib/libsomc_chokoballpal.so
+lib/libsony_chokoball.so
 lib/libsys-utils.so
 lib/libsysmon.so
 lib/libsysmon_idd.so
