@@ -42,7 +42,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/etc/sensors.conf:system/etc/sensors.conf
+    $(LOCAL_PATH)/rootdir/system/etc/sensors_calib.conf:system/etc/sensors_calib.conf
 
 # Device specific init
 PRODUCT_COPY_FILES += \

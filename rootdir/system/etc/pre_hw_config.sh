@@ -4,7 +4,7 @@
 
 #KOTO hw boot
 if [ -e /system/bin/snfcboot ]; then
-/system/bin/snfcboot
+    /system/bin/snfcboot
 fi
 
 #Touch fw update
@@ -33,10 +33,3 @@ else
     fi
     log "*** touch: No valid Misc TA 4950"
 fi
-
-
-# Turn on all cpus to speed up boot
-echo 1 > /sys/devices/system/cpu/cpu1/online
-echo 1 > /sys/devices/system/cpu/cpu2/online
-echo 1 > /sys/devices/system/cpu/cpu3/online
-
